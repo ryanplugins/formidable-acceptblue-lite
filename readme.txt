@@ -27,20 +27,6 @@ This is the **free Lite version**. Upgrade to Pro to unlock additional features.
 * **Processing overlay** — animated spinner shown on form submit while payment processes
 * **Minified assets** — production-ready JS and CSS; source files served automatically when WP_DEBUG is on
 
-= Pro Version Features =
-
-Upgrade to **Secure Form Checkout Pro by Ryan** to unlock:
-
-* Recurring subscriptions — daily, weekly, bi-weekly, monthly, bi-monthly, quarterly, bi-annually, and annually
-* Installment plans — split a total into a fixed number of automatic charges
-* Auth-only / Capture — authorise a card without charging; capture manually from the admin panel
-* Adjust & Capture — change the amount before capturing an authorisation
-* Refunds & Voids — full and partial refunds, voids of unsettled authorisations, all from the admin
-* Admin Transactions Panel — filterable list of all payments with 30-day revenue stats and CSV export
-* Webhook receiver — HMAC-SHA256 signed REST endpoint keeps payment statuses up to date in real time
-* Fraud Shield — IP velocity, email velocity, country block-list, and per-transaction amount threshold
-* Guest subscription cancellation — signed token system lets non-logged-in customers cancel their own subscriptions
-* Revenue dashboard — at-a-glance stats and transaction history per Formidable entry
 
 = Requirements =
 
@@ -110,6 +96,7 @@ complete — charge captured and settled; auth — authorised but not yet captur
 API request and response bodies are logged when debug logging is enabled. Card numbers are never present (they are handled by the accept.blue iFrame and never reach your server), but disable debug logging once you have finished troubleshooting.
 
 No card data is stored on your server. All sensitive payment data is handled exclusively by accept.blue's PCI-compliant infrastructure.
+
 
 == Screenshots ==
 
